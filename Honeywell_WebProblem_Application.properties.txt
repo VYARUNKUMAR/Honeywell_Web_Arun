@@ -1,0 +1,23 @@
+//Used Java and Selenium for the Project.
+
+package <XYZ>
+
+public class NewDemo{
+
+WebDriver driver;
+DesiredCapbilities dc = new DesiredCapabilities();
+System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe")
+driver = new ChromeDriver(dc);
+//Code for Other drivers
+driver.get("<URL here>")
+driver.manage().window().maximize()
+
+Properties obj = new Properties();
+FileInputStream objfile = new FileInputStream(System.getProperty("user.dir") + "\\application.properties");
+obj.load(objfile);
+
+grpName = "This is the Group Name."
+displayName ="This is display Name."
+descrpt = "This is description textbox."
+
+}
